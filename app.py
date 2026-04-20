@@ -60,4 +60,4 @@ with st.expander("Посмотреть историю за сегодня"):
 if st.button("Сбросить прогресс"):
     data = {"total": 0, "history": []}
     save_data(data)
-    st.rerun()V
+    st.rerun()
